@@ -29,7 +29,7 @@ services:
       - isolated_vpn_network
 
   vpn-sidecar:
-    image: lscr.io/linuxserver/wireguard
+    image: linuxserver/wireguard
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
